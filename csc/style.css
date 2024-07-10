@@ -3,10 +3,7 @@
     padding:0;
     font-family: "Roboto Condensed", sans-serif
 } 
-/*HEAEDR*/
-.encabezado{
-    background-color: #001514
-}
+/*HEADER*/
 .encabezado .lelogo{
    align-items: center;
    padding: 2rem;
@@ -16,7 +13,7 @@
 .encabezado img{
     height: 5.5rem;
 }
-.encabezado h1{
+.encabezado{
     color: #f0f8ff;
     font-size: 3rem;
 }
@@ -42,15 +39,35 @@
     display: flex;
     align-items: center;
 }
+/*BS*/
+.nav-fondo{
+    background-color: #253745;
+    display: flex;
+}
+.nav-color{
+    color: #ccd0cf;
+    text-decoration: none;
+}
+.color-boton{
+    color: #ccd0cf;
+}
+.cont-car{
+    width: 100%;
+    height: 100%;
+}
+.cont-car img{
+    width: 100%;
+    object-fit: cover;
+}
+.cont-car-merch img{
+    width: 100%;
+    object-fit: cover;
+}
 /*MAIN*/
 .fototeca{
     display: flex;
     justify-content: center;
     padding: 0.5rem;
-}
-.contenido .fototeca img{
-    width: 100%;
-    height: 20rem;
 }
 .contenido h2{
     text-align: center;
@@ -61,20 +78,16 @@
     text-align: center;
 }
 .contenido{
-    background-color: #afb1b9;
+    background-color: #ccd0cf;
 }
 .contenido-prin{
     display: flex;
     justify-content: space-evenly;
 }
 /*Ventana videos*/
-.videos-contenedor{   
-    padding: 1rem;   
-    display: flex; 
-    justify-content: space-around;
-}
 .videos{
     display: flex;
+    padding: 1rem;
 }
 /*VENTANA MERCH*/
 .contenido-merch{
@@ -120,9 +133,25 @@ h2{
     width: 50%;
 }
 .footer{
-    background-color: #001514;
+    background-color: #11212d;
     height: 4rem;
     margin: 0;
     padding: 0;
     display: flex;
+}
+/*media queries
+- tablet*/
+@media (max-width: 768px) {
+  .contenido-prin{
+    width: 300px;
+    height: 300;
+  }
+}
+/*-mobile*/
+@media (max-width: 320px) {
+  
+}
+
+@media (min-width: 30em) and (max-width: 50em) {
+
 }
