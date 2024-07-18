@@ -1,0 +1,46 @@
+/*HEADER*/
+.encabezado .lelogo{
+    align-items: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+ }
+ .encabezado img{
+     height: 5.5rem;
+ }
+ .encabezado{
+     color: #f0f8ff;
+     font-size: 3rem;
+ }
+ .encabezado .menu a{
+     text-decoration: none;
+     color: #FDE74C;
+     font-weight: 600; 
+     padding-right: 1rem;
+     display: inline-flex;
+        .encabezado .menu ul{
+            display: flex;
+            justify-content: end;   
+            width: 100%;
+            .encabezado .menu ul{
+                display: flex;
+                justify-content: end;   
+                width: 100%;
+        }    
+    }
+ }
+ .encabezado .menu ul{
+     display: flex;
+     justify-content: end;   
+     width: 100%;
+ }
+ .encabezado .menu li{
+     list-style: none;
+ }
+ .encabezado .menu a:hover{
+     color: aliceblue;
+ }
+ .encabezado .menu{
+     display: flex;
+     align-items: center;
+ }

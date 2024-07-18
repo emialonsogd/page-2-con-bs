@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/*HEADER*/
+.encabezado .lelogo {
+  align-items: center;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.encabezado img {
+  height: 5.5rem;
+}
+
+.encabezado {
+  color: #f0f8ff;
+  font-size: 3rem;
+}
+
+.encabezado .menu a {
+  text-decoration: none;
+  color: #FDE74C;
+  font-weight: 600;
+  padding-right: 1rem;
+  display: inline-flex;
+}
+.encabezado .menu a .encabezado .menu ul {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+.encabezado .menu a .encabezado .menu ul .encabezado .menu ul {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.encabezado .menu ul {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.encabezado .menu li {
+  list-style: none;
+}
+
+.encabezado .menu a:hover {
+  color: aliceblue;
+}
+
+.encabezado .menu {
+  display: flex;
+  align-items: center;
+}
+
+/*MAIN*/
+.fototeca {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.contenido h2 {
+  text-align: center;
+}
+
+.contenido p {
+  font-size: 1.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contenido {
+  background-color: #ccd0cf;
+}
+
+.contenido-prin {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*Ventana videos*/
+.videos {
+  display: flex;
+  padding: 1rem;
+}
+
+/*VENTANA MERCH*/
+.contenido-merch {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+
+.contenido-merch p {
+  font-size: 1.5rem;
+}
+
+.merch {
+  width: 25rem;
+  margin: 0.5rem;
+}
+
+.merch img {
+  width: 100%;
+}
+
+/*Footer*/
+.footer .redes {
+  text-align: center;
+}
+
+.footer .redes a {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.footer .redes img {
+  height: 1rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer .texto {
+  color: #f0f8ff;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.footer {
+  background-color: #11212d;
+  height: 4rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/*media queries
+- tablet*/
+@media (max-width: 768px) {
+  .contenido-prin {
+    width: 300px;
+    height: 300;
+  }
+}
+/*-mobile*/
+
+/*# sourceMappingURL=main.css.map */

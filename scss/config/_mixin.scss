@@ -1,0 +1,8 @@
+@mixin direction-align ($justc){
+    display: flex;
+    justify-content: $justc;
+}
+@mixin boxmodel ($p, $m){
+    padding: $p;
+    margin: $m;
+}

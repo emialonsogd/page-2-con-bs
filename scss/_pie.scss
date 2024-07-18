@@ -1,0 +1,29 @@
+/*Footer*/
+.footer .redes{
+    text-align: center;
+}
+.footer .redes a{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+.footer .redes img{
+    height: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.footer .texto{
+    color: #f0f8ff;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.footer{
+    background-color: #11212d;
+    height: 4rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}

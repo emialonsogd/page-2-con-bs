@@ -1,0 +1,16 @@
+/*VENTANA MERCH*/
+.contenido-merch{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+.contenido-merch p{
+    font-size: 1.5rem;
+}
+.merch{
+    width: 25rem;
+    margin: 0.5rem;
+}
+.merch img{
+    width: 100%;
+}

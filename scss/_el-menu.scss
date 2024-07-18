@@ -1,0 +1,20 @@
+/*MAIN*/
+.fototeca{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.contenido h2{
+    text-align: center;
+}
+.contenido p{
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+.contenido{
+    background-color: #ccd0cf;
+}
+.contenido-prin{
+    @include direction-align(space-evenly);
+}
